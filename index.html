@@ -132,32 +132,29 @@
         <button class="nav-btn">Discord</button>
       </a>
       <button class="nav-btn" onclick="copyIP()">MC Server</button>
+      <button class="nav-btn-mid" onclick="copyAD()">Copy Ad Command</button>
     </div>
   </div>
-
+  
   <!-- About -->
   <div class="about">
     <h2>About Nilgens</h2>
     <p class="about-text">
-      Nilgens is the best Minecraft gens server, built for players who love grinding, trading, and exploring custom features. 
-      Join our active community, build your empire, and experience the most polished gens gameplay out there.
+      NilGens is the best Minecraft gens server, built for players who love gens servers, PVPing, and active updates! 
+      Join our community, grind out your armour, and experience the best gens server. and if you can, Please do '/ad nilgens the best gens server that minehut has online'
+      If you do that i would appreaciate it
+      To join go click MC Server and go to MC and add that server ip in and join my server, thanks for reading
+    
     </p>
-    <div class="about-images">
-      <a href="https://i.imgur.com/njtbw0K.png" target="_blank">
-        <img src="https://i.imgur.com/njtbw0K.png" alt="Nilgens screenshot 1">
-      </a>
-      <a href="https://i.imgur.com/NSuRPgm.png" target="_blank">
-        <img src="https://i.imgur.com/NSuRPgm.png" alt="Nilgens screenshot 2">
-      </a>
-    </div>
-  </div>
-
+    
   <!-- Popup -->
   <div class="popup" id="popup">MC Server IP Copied</div>
 
   <script>
     function copyIP() {
-      navigator.clipboard.writeText("nilgens.minehut.gg").then(() => {
+      navigator.clipboard.writeText("nilgens.minehut.gg").then(()
+        function copyAD() {
+      navigator.clipboard.writeText("/ad nilgens the best gens server that minehut has online'").then(() => {=> {
         let popup = document.getElementById("popup");
         popup.style.display = "block";
         setTimeout(() => {
